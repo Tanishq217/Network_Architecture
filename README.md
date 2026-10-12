@@ -26,6 +26,7 @@
 * **[Practice Quiz Bank 01 (Lectures 01 to 03)](./Practice_Quizzes/Quiz_01_Lectures_01_to_03.md)**: 20 high-yield, calculation-heavy practice questions modeled directly after real classroom exam quizzes. Features detailed step-by-step arithmetic (default TCP MSS 536 bytes, bit shifts, little-endian port byte swaps, Base64 calculations, SMS GSM-7 bit packing, Little's Law concurrency, fiber optic latency floors, and NGINX worker throttling formulas).
 * **[Practice Quiz Bank 02 (Lecture 04 Real Exam & Advanced Practice)](./Practice_Quizzes/Quiz_02_Lecture_04_Real_Exam_and_Practice.md)**: Complete deconstruction of all 31 official in-class questions from Lecture 04 with real student answer distributions, correct answers, and trap explanations, plus 15 advanced mathematical and systems design practice problems (BDP buffer sizing, Mathis throughput equation, SMS 6-bit packing, `htons` port math, TCP window scaling, Base64 padding mechanics, and `epoll` vs `select` complexity).
 * **[Practice Quiz Bank 03 (Lecture 05 Real Exam & Advanced Practice)](./Practice_Quizzes/Quiz_03_Lecture_05_Real_Exam_and_Practice.md)**: Complete deconstruction of official Lecture 05 in-class questions (FTP PASV port calculations, GSM-7 bit packing math, kernel socket descriptor lifecycle, original vs modern TCP congestion signals, and L2 hop-by-hop MAC forwarding), plus 15 advanced mathematical problems (TCP Reno AIMD math, ephemeral port exhaustion rates, VLAN MTU overhead, and BBR dynamics).
+* **[Practice Quiz Bank 04 (Lecture 06 Real Exam & Advanced Practice)](./Practice_Quizzes/Quiz_04_Lecture_06_Real_Exam_and_Practice.md)**: Complete deconstruction of official Lecture 06 in-class questions (CDN airport colocation codes, speed of light in vacuum, fiber optic refractive index and delay math, TCP handshake 1.5 RTT count, distance vs packet loss, and reverse proxy vs CDN TTFB), plus 15 advanced mathematical problems (transoceanic fiber latency floors, TLS 1.2 vs 1.3 TTFB budgets, cache hit offload math, consistent hashing ring redistribution, and BGP Anycast DDoS capacity).
 
 ---
 
@@ -37,7 +38,8 @@ Network_Architecture/
 ├── Practice_Quizzes/
 │   ├── Quiz_01_Lectures_01_to_03.md                                # 20 calculation-heavy exam MCQs
 │   ├── Quiz_02_Lecture_04_Real_Exam_and_Practice.md               # 31 real lecture 4 MCQs + 15 advanced math MCQs
-│   └── Quiz_03_Lecture_05_Real_Exam_and_Practice.md               # 6 real lecture 5 MCQs + 15 advanced math MCQs
+│   ├── Quiz_03_Lecture_05_Real_Exam_and_Practice.md               # 6 real lecture 5 MCQs + 15 advanced math MCQs
+│   └── Quiz_04_Lecture_06_Real_Exam_and_Practice.md               # 7 real lecture 6 MCQs + 15 advanced math MCQs
 ├── Chapter_01_Network_Programming_101/
 │   └── Chapter_01_Network_Programming_101.md                       # In-depth notes, diagrams, and MCQs
 ├── Chapter_02_Computer_Networking_Eagle_Eye_View/
@@ -62,4 +64,4 @@ Network_Architecture/
 
 1. **Read Top-Down**: Each chapter is organized logically from foundational concepts to advanced OS kernel mechanics, telecommunications protocols, server scaling, edge architectures, resilient distributed systems, and petabyte-scale video distribution.
 2. **Review the Real-World Case Studies**: Pay close attention to practical networking problems (e.g., bufferbloat, why an emoji halves SMS length, `CLOSE_WAIT` leaks, the 1024 file descriptor wall, Little's Law memory bugs, zero-copy `sendfile()`, NGINX location routing precedence, HTTP request smuggling, HPACK vs CRIME, QUIC connection migration, consistent hashing, cache poisoning, Anycast DDoS defense, circuit breaker recovery spikes, and HLS live spoiler synchronization).
-3. **Practice the MCQs & Calculation Workouts**: Test your speed and precision using the chapter MCQs and the dedicated practice question banks: [Practice Quiz 01](./Practice_Quizzes/Quiz_01_Lectures_01_to_03.md), [Practice Quiz 02](./Practice_Quizzes/Quiz_02_Lecture_04_Real_Exam_and_Practice.md), and [Practice Quiz 03](./Practice_Quizzes/Quiz_03_Lecture_05_Real_Exam_and_Practice.md).
+3. **Practice the MCQs & Calculation Workouts**: Test your speed and precision using the chapter MCQs and the dedicated practice question banks: [Practice Quiz 01](./Practice_Quizzes/Quiz_01_Lectures_01_to_03.md), [Practice Quiz 02](./Practice_Quizzes/Quiz_02_Lecture_04_Real_Exam_and_Practice.md), [Practice Quiz 03](./Practice_Quizzes/Quiz_03_Lecture_05_Real_Exam_and_Practice.md), and [Practice Quiz 04](./Practice_Quizzes/Quiz_04_Lecture_06_Real_Exam_and_Practice.md).
