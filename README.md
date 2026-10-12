@@ -21,11 +21,19 @@
 
 ---
 
+## 🎯 Exam Practice Quizzes & Calculations
+
+* **[Practice Quiz Bank 01 (Lectures 01 to 03)](./Practice_Quizzes/Quiz_01_Lectures_01_to_03.md)**: 20 high-yield, calculation-heavy practice questions modeled directly after real classroom exam quizzes. Features detailed step-by-step arithmetic (default TCP MSS 536 bytes, bit shifts, little-endian port byte swaps, Base64 calculations, SMS GSM-7 bit packing, Little's Law concurrency, fiber optic latency floors, and NGINX worker throttling formulas).
+
+---
+
 ## 📂 Repository Directory Structure
 
 ```text
 Network_Architecture/
 ├── README.md                                                        # Master syllabus and navigation
+├── Practice_Quizzes/
+│   └── Quiz_01_Lectures_01_to_03.md                                # 20 calculation-heavy exam MCQs
 ├── Chapter_01_Network_Programming_101/
 │   └── Chapter_01_Network_Programming_101.md                       # In-depth notes, diagrams, and MCQs
 ├── Chapter_02_Computer_Networking_Eagle_Eye_View/
@@ -50,4 +58,4 @@ Network_Architecture/
 
 1. **Read Top-Down**: Each chapter is organized logically from foundational concepts to advanced OS kernel mechanics, telecommunications protocols, server scaling, edge architectures, resilient distributed systems, and petabyte-scale video distribution.
 2. **Review the Real-World Case Studies**: Pay close attention to practical networking problems (e.g., bufferbloat, why an emoji halves SMS length, `CLOSE_WAIT` leaks, the 1024 file descriptor wall, Little's Law memory bugs, zero-copy `sendfile()`, NGINX location routing precedence, HTTP request smuggling, HPACK vs CRIME, QUIC connection migration, consistent hashing, cache poisoning, Anycast DDoS defense, circuit breaker recovery spikes, and HLS live spoiler synchronization).
-3. **Practice the MCQs**: Test your comprehension using the multiple-choice questions at the end of each module, complete with answer keys and in-depth rationales.
+3. **Practice the MCQs & Calculation Workouts**: Test your speed and precision using the chapter MCQs and the dedicated [Practice Quiz Bank](./Practice_Quizzes/Quiz_01_Lectures_01_to_03.md).
